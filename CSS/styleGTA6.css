@@ -1,0 +1,245 @@
+@media screen and (max-width: 440px) and (orientation: portrait) {
+
+
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+body{
+overflow-x: hidden;
+overflow-y: scroll;
+
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+header{
+    position: relative;
+background-color: black;
+padding-top: 45px;
+border: 2px 2px 5px;
+
+}
+
+header img{
+position: relative;
+left:165px;
+bottom: 18px;
+
+
+}
+
+
+
+#section1 img {
+    position: relative;
+
+width: 100%;
+
+
+}
+
+
+#section1{
+    position: relative;
+width: 100%;
+background-color: rgb(25, 23, 26);
+padding-bottom: 95px;
+}
+
+#section1 h3{
+position: relative;
+left: 10px;
+top: 5px;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 2px 4px 5px black;
+}
+#section1 p {
+position: relative;
+color: white;
+top: 55px;
+left: 10px;
+font-size: 22px;
+
+
+}
+
+#section1 button{
+position: relative;
+left: 120px;
+top: 25px;
+padding: 20px 30px;
+cursor: pointer;
+background-color: black;
+color: white;
+font-size: 18px;
+}
+
+#section1 button:hover{
+transition: 0.5s;
+background-color: white;
+color: black;
+
+}
+
+
+
+#SECTION2 {
+
+ position: relative;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.973);
+padding-bottom: 115px;
+
+}
+
+
+#SECTION2 img {
+position: relative;
+width: 100%;
+
+
+}
+
+
+#SECTION2 p{
+position: relative;
+color: white;
+top: 75px;
+left: 13px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#SECTION2 h3 {
+position: relative;
+color: white;
+top: 27px;
+left: 18px;
+font-size: 26px;
+}
+
+
+
+
+
+
+#SECTION3 {
+
+ position: relative;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.973);
+padding-bottom: 115px;
+
+}
+
+
+#SECTION3 img {
+position: relative;
+width: 100%;
+
+
+}
+
+
+#SECTION3 p{
+position: relative;
+color: white;
+top: 75px;
+left: 13px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#SECTION3 h3 {
+position: relative;
+color: white;
+top: 27px;
+left: 18px;
+font-size: 26px;
+}
+
+
+
+#SECTION4 {
+
+ position: relative;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.973);
+padding-bottom: 115px;
+
+}
+
+
+#SECTION4 img {
+position: relative;
+width: 100%;
+
+
+}
+
+
+#SECTION4 p{
+position: relative;
+color: white;
+top: 75px;
+left: 13px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#SECTION4 h3 {
+position: relative;
+color: white;
+top: 27px;
+left: 18px;
+font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    opacity: 0; 
+    filter: blur(15px);
+    transition: all 2s;
+    transform: translateX(-100%);
+}
+
+.show{
+   filter: blur(0);
+opacity: 1;
+    transition: all 2s;
+    transform: translateX(0);
+}
+
+
+
+
+}

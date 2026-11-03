@@ -1,0 +1,351 @@
+@media screen and (max-width: 440px) and (orientation: portrait) {
+
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+body{
+overflow-x: hidden;
+overflow-y: scroll;
+
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+header{
+    position: relative;
+background-color: black;
+padding-top: 45px;
+border: 2px 2px 5px;
+
+}
+
+header img{
+position: relative;
+left: 90px;
+bottom: 18px;
+
+
+}
+
+
+#section1 img {
+    position: relative;
+
+width: 100%;
+
+
+}
+
+
+#section1{
+    position: relative;
+width: 100%;
+background-color: rgb(25, 23, 26);
+padding-bottom: 70px;
+}
+
+#section1 h3{
+position: relative;
+left: 10px;
+top: 5px;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 2px 4px 5px black;
+}
+#section1 p {
+position: relative;
+color: white;
+top: 32px;
+left: 10px;
+font-size: 22px;
+}
+
+#section1 button{
+position: relative;
+left: 120px;
+top: 20px;
+padding: 20px 30px;
+cursor: pointer;
+background-color: black;
+color: white;
+font-size: 18px;
+}
+
+#section1 button:hover{
+transition: 0.5s;
+background-color: white;
+color: black;
+
+}
+
+
+/*       SECTION PARTE 2      */
+
+
+
+
+#section2 img {
+    position: relative;
+
+width: 100%;
+
+
+}
+
+
+#section2{
+    position: relative;
+width: 100%;
+background-color: rgb(2, 1, 2);
+padding-bottom: 70px;
+}
+
+#section2 h3{
+position: relative;
+left: 10px;
+top: 5px;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 2px 4px 5px black;
+}
+#section2 p {
+position: relative;
+color: white;
+top: 32px;
+left: 10px;
+font-size: 22px;
+}
+
+
+/*
+
+Acompanhe a jornada de Arthur Morgan, um fora da lei dividido entre a lealdade à gangue Van der Linde e seus próprios princípios, enquanto enfrenta os desafios de um Velho Oeste em declínio — em uma emocionante história de redenção, escolhas e sacrifícios.
+
+
+Vivencie intensos combates em Red Dead Redemption 2, utilizando revólveres, rifles, espingardas e combates corpo a corpo. Domine o Dead Eye, enfrente inimigos em tiroteios cinematográficos e use suas habilidades para sobreviver aos perigos do Velho Oeste ao lado de Arthur Morgan.
+
+*/
+
+
+#section3 img {
+    position: relative;
+
+width: 100%;
+
+
+}
+
+
+#section3{
+    position: relative;
+width: 100%;
+background-color: rgb(2, 1, 2);
+padding-bottom: 70px;
+}
+
+#section3 h3{
+position: relative;
+left: 10px;
+top: 5px;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 2px 4px 5px black;
+}
+#section3 p {
+position: relative;
+color: white;
+top: 32px;
+left: 10px;
+font-size: 22px;
+}
+
+
+#section4 img {
+    position: relative;
+
+width: 100%;
+
+
+}
+
+
+#section4{
+    position: relative;
+width: 100%;
+background-color: rgb(2, 1, 2);
+padding-bottom: 70px;
+}
+
+#section4 h3{
+position: relative;
+left: 10px;
+top: 5px;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 2px 4px 5px black;
+}
+#section4 p {
+position: relative;
+color: white;
+top: 32px;
+left: 10px;
+font-size: 22px;
+}
+
+
+
+#SECTION5 {
+
+ position: relative;
+width: 100%;
+background-color: black;
+padding-bottom: 370px;
+
+}
+
+
+
+#SECTION5 h3 {
+position: relative;
+color: white;
+top: 27px;
+left: 30px;
+font-size: 35px;
+}
+
+
+
+#arrows2{
+position: relative;
+
+left: 310px;
+
+
+top: -6px;
+display: flex;
+gap: 10px;
+
+
+}
+
+#arrows2 button {
+    cursor: pointer;
+width: 45px;
+padding: 10px;
+background-color: white;
+color: black;
+font-size: 25px;
+
+
+
+}
+
+
+#arrows2 button:hover {
+
+
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.card2{
+position: relative;
+width: 180px;
+padding-top: 45px;
+padding-left: 15px;
+padding-right: 30px;
+padding-bottom: 50px;
+border-radius: 14px;
+background-image: linear-gradient(to right , rgb(77, 79, 80) , black);
+
+left: 85px;
+top: 270px !important;
+
+
+
+
+}
+
+.card2 img {
+position: relative !important;
+width: 150px !important;
+left:20px;
+
+}
+
+.divPrincipal{
+    /*
+position: relative;
+display: flex;
+right: 95px;
+gap: 45px;
+top: 45px;
+*/
+
+display: flex;
+gap: 45px;
+
+
+
+/*
+transition: opacity 0.4s ease , translate 0.4s cubic-bezier(0.25 , 1 ,0.5 ,1) ,visibility 0.4s ;*/
+}
+
+
+.card2 button{
+    cursor: pointer;
+position: relative;
+
+
+left: 40px;
+
+top: 30px;
+
+padding: 10px;
+
+}
+
+
+
+.card2 button:hover{
+
+    transition: 0.5s;
+    background-color: rgb(27, 4, 4);
+   color: white;
+
+}
+
+
+.hidden {
+    opacity: 0; 
+    filter: blur(15px);
+    transition: all 2s;
+    transform: translateX(-100%);
+}
+
+.show{
+   filter: blur(0);
+opacity: 1;
+    transition: all 2s;
+    transform: translateX(0);
+}
+
+
+
+
+
+
+}

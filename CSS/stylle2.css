@@ -1,0 +1,67 @@
+@media screen and (max-width: 440px) and (orientation: portrait) {
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+body{
+overflow-x: hidden;
+overflow-y: scroll;
+
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+header{
+    position: relative;
+background-color: black;
+padding-top: 45px;
+border: 2px 2px 5px;
+
+}
+
+header img{
+position: relative;
+left: 150px;
+bottom: 18px;
+
+
+}
+
+#section1{
+    position: relative;
+width: 100%;
+background-color: rgb(123, 23, 170);
+padding-bottom: 95px;
+}
+
+#section1 h3{
+position: relative;
+left: 10px;
+top: 5px;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 2px 4px 5px black;
+}
+#section1 p {
+position: relative;
+color: white;
+top: 32px;
+left: 10px;
+font-size: 22px;
+}
+
+
+
+
+
+}
